@@ -11,6 +11,7 @@ svg{
     height: 150mm;
     width: auto;
 }
+
 .star:hover{
     animation-name: estrela;
     animation-duration: 400ms;

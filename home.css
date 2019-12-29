@@ -1,0 +1,28 @@
+@keyframes estrela {
+    from {fill:black}
+    to {fill:rgb(161, 161, 61)}
+}
+@keyframes regiao {
+    from {fill:white}
+    to {fill:#9090a1}
+}
+svg{
+    background-color:rgba(0, 0, 0, 0.3);
+    height: 150mm;
+    width: auto;
+}
+.star:hover{
+    animation-name: estrela;
+    animation-duration: 400ms;
+    fill:rgb(161, 161, 61) !important;
+}
+.region:hover{
+    animation-name: regiao;
+    animation-duration: 400ms;
+    fill:#9090a1 !important;
+}
+.region:hover{
+    animation-name: regiao;
+    animation-duration: 400ms;
+    fill:#9090a1 !important;
+}

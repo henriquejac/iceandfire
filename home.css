@@ -16,11 +16,13 @@ svg{
     animation-duration: 400ms;
     fill:rgb(161, 161, 61) !important;
 }
+
 .region:hover{
     animation-name: regiao;
     animation-duration: 400ms;
     fill:#9090a1 !important;
 }
+
 .region:hover{
     animation-name: regiao;
     animation-duration: 400ms;

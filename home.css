@@ -2,10 +2,12 @@
     from {fill:black}
     to {fill:rgb(161, 161, 61)}
 }
+
 @keyframes regiao {
     from {fill:white}
     to {fill:#9090a1}
 }
+
 svg{
     background-color:rgba(0, 0, 0, 0.3);
     height: 150mm;

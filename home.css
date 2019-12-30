@@ -8,24 +8,69 @@
     to {fill:#9090a1}
 }
 
+a{
+    color: #9b9a9b;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(161, 161, 61);
+}
+
+body{
+    margin: 0px;
+    height: 100vh;
+    color: #9b9a9b;
+    background-color: #121212;
+}
+
+header{
+    float: left;
+    height: 100vh;
+    max-width: 30vw;
+}
+ul{
+    float: top;
+    padding: 13px;
+    list-style: none;;
+}
+li{
+    font-size: 150%;
+    padding: 3px;
+}
+
+.mapa{
+    float: left;
+    height: 100vh;
+    max-width: 50vw;
+}
+
 svg{
-    background-color:rgba(0, 0, 0, 0.3);
-    height: 150mm;
-    width: auto;
+    height: 100vh;
+    max-width: 70vw;
+    background-color: #9b9a9b;
 }
 
 .star:hover{
+    cursor: pointer;;
     animation-name: estrela;
     animation-duration: 400ms;
     fill:rgb(161, 161, 61) !important;
 }
 
 .region:hover{
+    cursor: pointer;
     animation-name: regiao;
     animation-duration: 400ms;
     fill:#9090a1 !important;
 }
-
+.region{
+    fill:white;
+}
+.star{
+    fill:black;
+}
 .region:hover{
     animation-name: regiao;
     animation-duration: 400ms;
